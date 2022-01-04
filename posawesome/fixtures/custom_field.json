@@ -1560,8 +1560,6 @@
   "modified": "2021-06-24 03:24:52.591942",
   "name": "POS Profile-posa_hide_variants_items",
   "no_copy": 0,
-<<<<<<< HEAD
-=======
   "non_negative": 0,
   "options": null,
   "parent": null,
@@ -1616,7 +1614,6 @@
   "name": "Company-posa_auto_referral",
   "no_copy": 0,
   "non_negative": 0,
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "options": null,
   "parent": null,
   "parentfield": null,
@@ -1695,33 +1692,20 @@
   "dt": "POS Profile",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_pos_awesome_advance_settings",
-  "fieldtype": "Section Break",
-=======
   "fieldname": "posa_column_break_22",
   "fieldtype": "Column Break",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_fetch_coupon",
-  "label": "POS Awesome Advance Settings",
-  "length": 0,
-  "modified": "2020-10-11 15:13:10.899536",
-  "name": "POS Profile-posa_pos_awesome_advance_settings",
-=======
   "insert_after": "posa_auto_referral",
   "label": "",
   "length": 0,
   "mandatory_depends_on": null,
   "modified": "2021-07-29 23:11:04.558635",
   "name": "Company-posa_column_break_22",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": null,
   "parent": null,
@@ -1748,40 +1732,21 @@
   "collapsible_depends_on": null,
   "columns": 0,
   "default": null,
-<<<<<<< HEAD
-  "depends_on": null,
-  "description": "Send invoice to submit after printing",
-=======
   "depends_on": "posa_auto_referral",
   "description": null,
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "docstatus": 0,
   "doctype": "Custom Field",
   "dt": "Company",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_allow_submissions_in_background_job",
-  "fieldtype": "Check",
-=======
   "fieldname": "posa_customer_offer",
   "fieldtype": "Link",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_pos_awesome_advance_settings",
-  "label": "Allow Submissions in background job",
-  "length": 0,
-  "modified": "2020-10-09 16:05:54.332880",
-  "name": "POS Profile-posa_allow_submissions_in_background_job",
-  "no_copy": 0,
-  "options": null,
-=======
   "insert_after": "posa_column_break_22",
   "label": "Final Customer Offer",
   "length": 0,
@@ -1791,7 +1756,6 @@
   "no_copy": 0,
   "non_negative": 0,
   "options": "POS Offer",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -1815,11 +1779,7 @@
   "collapsible": 0,
   "collapsible_depends_on": null,
   "columns": 0,
-<<<<<<< HEAD
-  "default": "1",
-=======
   "default": "0",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "depends_on": null,
   "description": null,
   "docstatus": 0,
@@ -1827,11 +1787,7 @@
   "dt": "POS Profile",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_local_storage",
-=======
   "fieldname": "posa_allow_customer_purchase_order",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "fieldtype": "Check",
   "hidden": 0,
   "ignore_user_permissions": 0,
@@ -1839,20 +1795,12 @@
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_allow_submissions_in_background_job",
-  "label": "Use Browser Local Storage",
-  "length": 0,
-  "modified": "2020-11-13 22:14:13.683091",
-  "name": "POS Profile-posa_local_storage",
-=======
   "insert_after": "posa_fetch_coupon",
   "label": "Allow Customer Purchase Order",
   "length": 0,
   "mandatory_depends_on": null,
   "modified": "2021-12-16 16:27:32.300240",
   "name": "POS Profile-posa_allow_customer_purchase_order",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": null,
   "parent": null,
@@ -1879,39 +1827,21 @@
   "collapsible_depends_on": null,
   "columns": 0,
   "default": null,
-<<<<<<< HEAD
-  "depends_on": null,
-=======
   "depends_on": "posa_auto_referral",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "description": null,
   "docstatus": 0,
   "doctype": "Custom Field",
   "dt": "Company",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_search_serial_no",
-  "fieldtype": "Check",
-=======
   "fieldname": "posa_primary_offer",
   "fieldtype": "Link",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_local_storage",
-  "label": "Search by Serial Number",
-  "length": 0,
-  "modified": "2021-06-20 20:47:47.966800",
-  "name": "POS Profile-posa_search_serial_no",
-  "no_copy": 0,
-  "options": null,
-=======
   "insert_after": "posa_customer_offer",
   "label": "Primary Customer Offer",
   "length": 0,
@@ -1921,7 +1851,6 @@
   "no_copy": 0,
   "non_negative": 0,
   "options": "POS Offer",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -1945,11 +1874,7 @@
   "collapsible": 0,
   "collapsible_depends_on": null,
   "columns": 0,
-<<<<<<< HEAD
-  "default": "1",
-=======
   "default": "0",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "depends_on": null,
   "description": null,
   "docstatus": 0,
@@ -1957,11 +1882,7 @@
   "dt": "POS Profile",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_tax_inclusive",
-=======
   "fieldname": "posa_allow_print_last_invoice",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "fieldtype": "Check",
   "hidden": 0,
   "ignore_user_permissions": 0,
@@ -1969,14 +1890,6 @@
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_search_serial_no",
-  "label": "Tax Inclusive",
-  "length": 0,
-  "modified": "2021-09-06 16:33:33.398280",
-  "name": "POS Profile-posa_tax_inclusive",
-  "no_copy": 0,
-=======
   "insert_after": "posa_allow_customer_purchase_order",
   "label": "Allow Print Last Invoice",
   "length": 0,
@@ -1985,7 +1898,6 @@
   "name": "POS Profile-posa_allow_print_last_invoice",
   "no_copy": 0,
   "non_negative": 0,
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "options": null,
   "parent": null,
   "parentfield": null,
@@ -2015,39 +1927,23 @@
   "description": null,
   "docstatus": 0,
   "doctype": "Custom Field",
-<<<<<<< HEAD
-  "dt": "Company",
-  "fetch_from": null,
-  "fetch_if_empty": 0,
-  "fieldname": "posa_referral_section",
-  "fieldtype": "Section Break",
-=======
   "dt": "Customer",
   "fetch_from": null,
   "fetch_if_empty": 0,
   "fieldname": "posa_birthday",
   "fieldtype": "Date",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "total_monthly_sales",
-  "label": "Referral Code",
-  "length": 0,
-  "modified": "2021-07-29 23:04:22.290849",
-  "name": "Company-posa_referral_section",
-=======
   "insert_after": "contact_html",
   "label": "Birthday",
   "length": 0,
   "mandatory_depends_on": null,
   "modified": "2021-07-31 00:12:09.417519",
   "name": "Customer-posa_birthday",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": null,
   "parent": null,
@@ -2073,41 +1969,22 @@
   "collapsible": 0,
   "collapsible_depends_on": null,
   "columns": 0,
-<<<<<<< HEAD
-  "default": null,
-  "depends_on": null,
-=======
   "default": "",
   "depends_on": "posa_auto_referral",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "description": null,
   "docstatus": 0,
   "doctype": "Custom Field",
   "dt": "Company",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_auto_referral",
-  "fieldtype": "Check",
-=======
   "fieldname": "posa_referral_campaign",
   "fieldtype": "Link",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_referral_section",
-  "label": "Auto Create Referral For New Customers",
-  "length": 0,
-  "modified": "2021-07-29 23:07:08.681215",
-  "name": "Company-posa_auto_referral",
-  "no_copy": 0,
-  "options": null,
-=======
   "insert_after": "posa_primary_offer",
   "label": "Referral Campaign",
   "length": 0,
@@ -2117,7 +1994,6 @@
   "no_copy": 0,
   "non_negative": 0,
   "options": "Campaign",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2160,14 +2036,9 @@
   "insert_after": "posa_allow_print_last_invoice",
   "label": "Display Additional Notes",
   "length": 0,
-<<<<<<< HEAD
-  "modified": "2021-07-31 00:12:09.417519",
-  "name": "Customer-posa_birthday",
-=======
   "mandatory_depends_on": null,
   "modified": "2021-12-19 16:54:32.986600",
   "name": "POS Profile-posa_display_additional_notes",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": null,
   "parent": null,
@@ -2201,33 +2072,20 @@
   "dt": "Company",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_column_break_22",
-  "fieldtype": "Column Break",
-=======
   "fieldname": "posa_pos_awesome_advance_settings",
   "fieldtype": "Section Break",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_auto_referral",
-  "label": "",
-  "length": 0,
-  "modified": "2021-07-29 23:11:04.558635",
-  "name": "Company-posa_column_break_22",
-=======
   "insert_after": "posa_display_additional_notes",
   "label": "POS Awesome Advance Settings",
   "length": 0,
   "mandatory_depends_on": null,
   "modified": "2020-10-11 15:13:10.899536",
   "name": "POS Profile-posa_pos_awesome_advance_settings",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": null,
   "parent": null,
@@ -2300,40 +2158,21 @@
   "collapsible_depends_on": null,
   "columns": 0,
   "default": null,
-<<<<<<< HEAD
-  "depends_on": "posa_auto_referral",
-  "description": null,
-=======
   "depends_on": null,
   "description": "Send invoice to submit after printing",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "docstatus": 0,
   "doctype": "Custom Field",
   "dt": "POS Profile",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_customer_offer",
-  "fieldtype": "Link",
-=======
   "fieldname": "posa_allow_submissions_in_background_job",
   "fieldtype": "Check",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_column_break_22",
-  "label": "Final Customer Offer",
-  "length": 0,
-  "modified": "2021-07-29 23:11:04.891539",
-  "name": "Company-posa_customer_offer",
-  "no_copy": 0,
-  "options": "POS Offer",
-=======
   "insert_after": "posa_pos_awesome_advance_settings",
   "label": "Allow Submissions in background job",
   "length": 0,
@@ -2343,7 +2182,6 @@
   "no_copy": 0,
   "non_negative": 0,
   "options": null,
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2421,33 +2259,20 @@
   "dt": "Company",
   "fetch_from": null,
   "fetch_if_empty": 0,
-<<<<<<< HEAD
-  "fieldname": "posa_primary_offer",
-  "fieldtype": "Link",
-=======
   "fieldname": "posa_local_storage",
   "fieldtype": "Check",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "hidden": 0,
   "ignore_user_permissions": 0,
   "ignore_xss_filter": 0,
   "in_global_search": 0,
   "in_list_view": 0,
   "in_standard_filter": 0,
-<<<<<<< HEAD
-  "insert_after": "posa_customer_offer",
-  "label": "Primary Customer Offer",
-  "length": 0,
-  "modified": "2021-07-29 23:11:05.290809",
-  "name": "Company-posa_primary_offer",
-=======
   "insert_after": "posa_allow_submissions_in_background_job",
   "label": "Use Browser Local Storage",
   "length": 0,
   "mandatory_depends_on": null,
   "modified": "2020-11-13 22:14:13.683091",
   "name": "POS Profile-posa_local_storage",
->>>>>>> ebfd14eb513e235518cb4282574dc7f4673603ef
   "no_copy": 0,
   "options": "POS Offer",
   "parent": null,
