@@ -71,9 +71,11 @@ def get_mpesa_mode_of_payment(company):
 def get_mpesa_draft_payments(company, mode_of_payment, mobile_no=None, full_name=None):
     filters = {"company": company, "mode_of_payment": mode_of_payment, "docstatus": 0}
     if mobile_no:
-        filters["msisdn"] = ["like", f"%{mobile_no}%"]
+        #filters["msisdn"] = ["like", f"%{mobile_no}%"]
+        filters["msisdn"] = ["like", "%{mobile_no}%"]  #Due to Python 3.5 HELKYDs 23-12-2021
     if full_name:
-        filters["full_name"] = ["like", f"%{full_name}%"]
+        #filters["full_name"] = ["like", f"%{full_name}%"]
+        filters["full_name"] = ["like", "%{full_name}%"]   #Due to Python 3.5 HELKYDs 23-12-2021
 
     payments = frappe.get_all(
         "Mpesa Payment Register",
